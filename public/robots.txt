@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://linktree.salahineo.com/sitemap.xml
