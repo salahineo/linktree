@@ -40,12 +40,12 @@ pipeline {
 
     post {
         always {
-            discordSend description: "${currentBuild.currentResult} - Jenkins Pipeline for ${env.JOB_NAME}",
-                footer: "Build ${env.BUILD_DISPLAY_NAME} for production branch",
+            discordSend description: '${currentBuild.currentResult} - Jenkins Pipeline for ${env.JOB_NAME}',
+                footer: 'Build ${env.BUILD_DISPLAY_NAME} for production branch',
                 link: env.BUILD_URL,
                 result: currentBuild.currentResult,
                 title: env.JOB_NAME,
-                webhookURL: "${DISCORD_WEBHOOK}"
+                webhookURL: '${env.DISCORD_WEBHOOK}'
         }
     }
 }
