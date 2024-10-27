@@ -9,9 +9,13 @@
 LinkTree is a custom project designed to introduce users to various profiles across different platforms.
 The project aims to provide a simple, yet elegant interface.
 
+---
+
 ### 🌐 Demo
 
 Check out the live demo [here](https://linktree.salahineo.com).
+
+---
 
 ### 💻 Stack
 
@@ -20,7 +24,9 @@ Check out the live demo [here](https://linktree.salahineo.com).
 - SCSS
 - Vite
 
-> The project is fully responsive, ensuring it works across all devices.
+> The project is fully responsive, ensuring it works across all devices. 
+
+---
 
 ### 🏗️ Installation
 
@@ -47,6 +53,8 @@ npm run dev
 
 > Make sure to comment the `<base href="https://linktree.salahineo.com">` line on the `index.html` file before running the project locally.
 
+---
+
 ### ⚓ Contributing
 
 Contributions are welcome and greatly appreciated! If you'd like to contribute to this project, please follow these steps:
@@ -71,6 +79,8 @@ git push origin feature/your-feature-name
 ```
 - Submit a Pull Request (PR) by going to the original repository and clicking the "New Pull Request" button.
 
+---
+
 ### 📋 Contribution Guidelines
 
 - Ensure your changes are well-tested and documented.
@@ -78,9 +88,13 @@ git push origin feature/your-feature-name
 - Provide clear descriptions in your PR regarding the changes and enhancements.
 - Be open to feedback and discussion in the PR review process.
 
+---
+
 ### ✉️ Contact
 
 [![LinkTree](https://img.shields.io/badge/-Checkout%20My%20LinkTree-404040?style=flat&logo=linktree&logoColor=ffffff)](https://linktree.salahineo.com)
+
+---
 
 ### 🔓 License
 
