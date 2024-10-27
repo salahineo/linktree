@@ -1,19 +1,19 @@
-<h1 align="center">LinkTree</h1>
+<h2 align="center">LinkTree</h2>
 
 <p align="center">
   <img src="Mockup.jpg" alt="Responsive Mockup">
 </p>
 
-## Goal
+### 🎯 Goal
 
 LinkTree is a custom project designed to introduce users to various profiles across different platforms.
 The project aims to provide a simple, yet elegant interface.
 
-## Demo
+### 🌐 Demo
 
 Check out the live demo [here](https://linktree.salahineo.com).
 
-## Stack
+### 💻 Stack
 
 - ReactJS
 - JSX
@@ -22,7 +22,7 @@ Check out the live demo [here](https://linktree.salahineo.com).
 
 > The project is fully responsive, ensuring it works across all devices.
 
-## Installation
+### 🏗️ Installation
 
 - Fork the repository by clicking the `Fork` button at the top-right of the repository page.
 - Clone your forked repository locally
@@ -32,10 +32,6 @@ git clone https://github.com/your-username/repo-name.git
 - Navigate to the project directory
 ```bash
 cd repo-name
-```
-- Switch to the `dev` branch
-```bash
-git checkout dev
 ```
 - Install the project dependencies
 ```bash
@@ -49,7 +45,9 @@ npm run dev
 
 > Replace `<port>` with the port number displayed in the terminal.
 
-## Contributing
+> Make sure to comment the `<base href="https://linktree.salahineo.com">` line on the `index.html` file before running the project locally.
+
+### ⚓ Contributing
 
 Contributions are welcome and greatly appreciated! If you'd like to contribute to this project, please follow these steps:
 
@@ -58,9 +56,9 @@ Contributions are welcome and greatly appreciated! If you'd like to contribute t
 ```bash
 git clone https://github.com/your-username/repo-name.git
 ```
-- Create a new branch for your contribution from the `dev` branch
+- Create a new branch for your contribution from the `production` branch
 ```bash
-git checkout -b feature/your-feature-name dev
+git checkout -b feature/your-feature-name production
 ```
 - Make your changes and ensure your code is clean and properly formatted.
 - Commit your changes
@@ -73,21 +71,21 @@ git push origin feature/your-feature-name
 ```
 - Submit a Pull Request (PR) by going to the original repository and clicking the "New Pull Request" button.
 
-## Contribution Guidelines
+### 📋 Contribution Guidelines
 
 - Ensure your changes are well-tested and documented.
 - Adhere to the existing code style and project structure.
 - Provide clear descriptions in your PR regarding the changes and enhancements.
 - Be open to feedback and discussion in the PR review process.
 
-## Contact
+### ✉️ Contact
 
-Check out my [LinkTree](https://linktree.salahineo.com).
+[![LinkTree](https://img.shields.io/badge/-Checkout%20My%20LinkTree-404040?style=flat&logo=linktree&logoColor=ffffff)](https://linktree.salahineo.com)
 
-## License
+### 🔓 License
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 ---
 
-**If you find my work good, consider giving it a :star: or fork-ing to show some :heart:. It helps me stay on track and be motivated.**
+**If you find my work good, consider giving it a ⭐ or fork-ing to show some ❤️. It helps me stay on track and be motivated.**
