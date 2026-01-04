@@ -1,14 +1,16 @@
 {
   "name": "salahineo-linktree",
+  "homepage": "https://linktree.salahineo.com",
   "private": true,
   "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && cp dist/index.html dist/404.html",
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "lint": "eslint .",
     "preview": "vite preview"
-
   },
   "dependencies": {
     "@sentry/browser": "^8.34.0",
@@ -24,7 +26,9 @@
     "eslint-plugin-react": "^7.37.1",
     "eslint-plugin-react-hooks": "^5.1.0-rc.0",
     "eslint-plugin-react-refresh": "^0.4.12",
+    "gh-pages": "^6.3.0",
     "globals": "^15.9.0",
+    "sass-embedded": "^1.97.1",
     "vite": "^5.4.8"
   }
 }
